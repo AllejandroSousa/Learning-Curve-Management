@@ -1,0 +1,8 @@
+We will create an application called Learning Curve Management that allows users 
+to record the subjects they are interested in and create journal entries as they 
+learn something about each subject. The Learning Curve Management homepage should 
+describe the site and invite users to register or log in. Once logged in, a user 
+should be able to create new subjects and add new entries, as well as read and 
+edit existing entries. The system will also display the days on which the user 
+should review the subjects already added, based on the day they were added and 
+the forgetting curve.
