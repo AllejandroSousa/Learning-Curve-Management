@@ -1,4 +1,6 @@
-learning_curves/
+learning_curves/pycache
+learning_curves/migrations
+learning_curves/admin.py
 ll_env/
 pyvenv.cfg
 db.sqlite3
