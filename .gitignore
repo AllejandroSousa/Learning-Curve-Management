@@ -1,4 +1,5 @@
-learning_curves/pycache
+learning_curve/__pycache__
+learning_curves/__pycache__
 learning_curves/migrations
 learning_curves/admin.py
 ll_env/
