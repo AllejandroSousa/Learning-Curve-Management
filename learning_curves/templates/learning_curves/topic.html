@@ -1,8 +1,14 @@
-{% extends 'learning_curves/base.html' %}
+{% extends "learning_curves/base.html" %}
 
 {% block content %}
 
   <p>Topic: {{ topic }}</p>
+
+  <p>Entries:</p>
+  <p>
+    <a href="{% url 'learning_curves:new_entry' topic.id %}">add new_entry</a>
+  </p>
+
   <ul>
   {% for entry in entries %}
     <li>
