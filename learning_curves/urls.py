@@ -12,4 +12,7 @@ urlpatterns = [
 
     #Show all the topics
     path('topics/', views.topics, name='topics'),
+
+    #Detail page for one topic
+    path('topics/<int:topic_id>/', views.topic, name='topic')
 ]
