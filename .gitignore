@@ -2,6 +2,9 @@ learning_curve/__pycache__
 learning_curves/__pycache__
 learning_curves/migrations
 learning_curves/admin.py
+users/__pycache__
+users/migrations
+users/admin.py
 ll_env/
 pyvenv.cfg
 db.sqlite3
