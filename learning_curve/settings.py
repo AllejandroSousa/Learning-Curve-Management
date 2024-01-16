@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #My applications
     'learning_curves',
+    'users',
 ]
 
 MIDDLEWARE = [
