@@ -1,18 +1,23 @@
 {% extends "learning_curves/base.html" %}
 
+{% block header %}
+  <h1>Assuntos</h1>
+{% endblock header %}
+
 {% block content %}
 
-  <p>Topics</p>
   <ul>
     {% for topic in topics %}
       <li>
-        <a href="{% url 'learning_curves:topic' topic.id %}">{{topic}}</a>
+        <h3> 
+          <a href="{% url 'learning_curves:topic' topic.id %}">{{ topic }}</a>
+        </h3>
       </li>
     {% empty %}
-      <li>No topics have been added yet.</li>
+      <li>Nenhum assunto ainda foi adicionado.</li>
     {% endfor %}
   </ul>
 
-  <a href="{% url 'learning_curves:new_topic' %}">Add a new topic</a>
+  <h3><a href="{% url 'learning_curves:new_topic' %}">Adicionar novo assunto</a></h3>
 
 {% endblock content %}
