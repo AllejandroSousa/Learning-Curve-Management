@@ -1,5 +1,18 @@
 {% extends "learning_curves/base.html" %}
 
+{% block header %}
+  <div class="jumbotron">
+    <h1>Acompanhe o seu aprendizado.</h1>
+  </div>
+{% endblock header %}
+
 {% block content %}
-<p>Learning Curve helps you keep track of your learning, for any topic you're learning about.</p>
+  <h2>
+    <a href="{% url 'users:register' %}">Crie uma conta</a> para manter
+    a sua própria Curva do Aprendizado e listar os assuntos que você está aprendendo.
+  </h2>
+  <h2>
+    Sempre que estiver aprendendo algo novo sobre um assunto, insira um
+    resumo do que você aprendeu.
+  </h2>
 {% endblock content %}
